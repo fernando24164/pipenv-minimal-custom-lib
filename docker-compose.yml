@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  python3:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - "./requirements.txt:/requirements.txt"
