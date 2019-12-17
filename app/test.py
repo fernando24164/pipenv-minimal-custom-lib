@@ -1,3 +1,5 @@
-import print_json
+from print_json import MyClass
 
-print_json.print_config()
+a = MyClass()
+import ipdb; ipdb.set_trace()
+assert  a.print_config() == "test"

@@ -1,3 +1,5 @@
 .vscode/
 build/
 *.c
+dist/
+*.egg-info
